@@ -3,7 +3,10 @@
 from ast import literal_eval
 import sys
 
-from in_out_code import in_out_code
+try:
+    from .in_out_code import in_out_code
+except ImportError:  # Direct execution from the src directory.
+    from in_out_code import in_out_code
 
 
 def _component_count(pd_code: list[list[int]]) -> int:

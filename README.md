@@ -63,3 +63,16 @@ python -m unittest discover -s tests -v
 Run the bundled dependency tests from `src/get_in_out_code` when refreshing
 its snapshot. See `VENDORED_DEPENDENCIES.md` for the audited revision. No PyPI
 publication is performed as part of repository maintenance.
+
+## Citation
+
+If you use this repository in academic work, please cite it as:
+
+```bibtex
+@software{topologicalknotindexer_pd_code_to_dt_code,
+  author = {{TopologicalKnotIndexer contributors}},
+  title = {{pd\_code\_to\_dt\_code}},
+  year = {2026},
+  url = {https://github.com/TopologicalKnotIndexer/pd_code_to_dt_code}
+}
+```
